@@ -41,8 +41,8 @@ and n times O(log n) for n binary searches, giving a total time complexity of O(
                 rightArray[i - middle] = array[i];
             }
         }
-        mergeSort(leftArray);  // Recursive call 1: O(n/2 log n/2)
-        mergeSort(rightArray); // Recursive call 2: O(n/2 log n/2)
+        mergeSort(leftArray);  // Recursive call 1: O(n log n)
+        mergeSort(rightArray); // Recursive call 2: O(n log n)
         merge(leftArray, rightArray, array);  // Merge operation: O(n)
     }
 
