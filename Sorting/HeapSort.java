@@ -1,6 +1,6 @@
 public  class HeapSort{
 public static void main (String[] args){
-int[] arr = {0,5, 10, 15, 20, 25, 30, 35, 40,4,9,16};
+int[] arr = {0,5, 10,1000, 15, 20, 25, 30, 35, 40,4,9,16};
 HeapSort s = new HeapSort();
 s.Sort(arr);
 for (int i = 0; i < arr.length; i ++){

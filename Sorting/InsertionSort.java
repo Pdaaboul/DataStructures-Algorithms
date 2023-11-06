@@ -2,11 +2,9 @@ public class InsertionSort {
        
 public static void main (String[] args){
  InsertionSort s = new InsertionSort();
- int[] i = {4,9,42,2,7,44,1,5,3,6,8};
+ int[] i = {4,9,42,2,7,44,1,5,3,6,8,100,3};
  s.Sort(i);
- for (int j = 0; j < i.length;j++){
-    System.out.print(" " + i[j]);
-}
+
 }
 private void Sort(int [] arr){
     for (int i = 1; i < arr.length; i++) {  
@@ -17,7 +15,12 @@ private void Sort(int [] arr){
             arr[j - 1] = temp;
             j--;
         }
+        for (int a = 0; a < arr.length;a++){
+            System.out.print(" " + arr[a]);
+
     }
+    System.out.println();
 }
 
+}
 }
