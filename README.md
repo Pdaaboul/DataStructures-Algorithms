@@ -11,8 +11,7 @@
 - [Usage](#Usage)
 - [Topics Covered](#Topics-Covered)
 - [Contributing](#Contributing)
-- [License](#License)
-- [Acknowledgements](#Acknowledgements)
+
 
 ## **Introduction**
 
