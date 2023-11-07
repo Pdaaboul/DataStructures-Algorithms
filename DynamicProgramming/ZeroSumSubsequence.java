@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class Problem03 {
+public class ZeroSumSubsequence {
 
     // O(n) - Overall runtime complexity of hasZeroSumSubsequence method
     static boolean hasZeroSumSubsequence(int[] A) {

@@ -1,4 +1,4 @@
-public class Problem01 {
+public class MaxSubArray {
 
     public static void main(String[] args) {
         // O(1) - Initialization of a fixed-size array

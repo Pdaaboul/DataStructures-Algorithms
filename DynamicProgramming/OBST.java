@@ -1,4 +1,4 @@
-public class Problem02 {
+public class OBST {
 
     // O(n^3) - Total runtime complexity of optimalSearchTree method
     static int optimalSearchTree(int keys[], int freq[], int n) {
