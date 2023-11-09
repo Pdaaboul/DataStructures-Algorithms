@@ -2,9 +2,9 @@ public class KnapSack {
     public static void main (String[] args){
         int [][] arr = {{2,1,3,2},{12,10,20,15}};
         int Tweight = 5;
-       System.out.print( KnapSack(arr, 5));
+       System.out.print( knapSack(arr, Tweight));
     }
-private static int KnapSack(int[][] arr,int Tweight){
+private static int knapSack(int[][] arr,int Tweight){
     int n = arr[0].length;
     int[] weight = arr[0];
     int[] value = arr[1];
